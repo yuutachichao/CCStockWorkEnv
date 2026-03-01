@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(rg:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(less:*)",
+      "Bash(wc:*)",
+      "Bash(file:*)",
+      "Bash(which:*)",
+      "Bash(pwd)",
+      "Bash(echo:*)",
+      "Bash(diff:*)",
+      "Bash(sqlite3 data/ccstockworkenv.db*)",
+      "Bash(cd tool_scripts/send_telegram && uv run python send_message.py*)",
+      "Bash(cd tool_scripts/send_mail && uv run python send_mail.py*)",
+      "Bash(cd tool_scripts/market_data && uv run python*)",
+      "Bash(cd tool_scripts/financial_calc && uv run python*)",
+      "Bash(cd tool_scripts/db_ops && uv run python*)",
+      "Bash(cd tool_scripts/report_gen && uv run python*)"
+    ]
+  }
+}

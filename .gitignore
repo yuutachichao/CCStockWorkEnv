@@ -1,0 +1,44 @@
+# Data and output
+data/
+output/
+temp/
+prompts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+
+# Environment
+.env
+*.env
+
+# Config files with secrets
+config.json
+!config.json.template
+tool_scripts/*/config.json
+!tool_scripts/*/config.json.template
+
+# uv
+uv.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Django
+*.sqlite3
+
+# Generated results
+test-results/
+tool_scripts/financial_calc/_health_check_results.json
+
+# Claude worktrees
+.claude/worktrees/

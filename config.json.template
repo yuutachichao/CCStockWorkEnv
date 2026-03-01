@@ -1,0 +1,24 @@
+{
+  "telegram": {
+    "bot_token": "your-bot-token",
+    "chat_ids": ["your-chat-id-1", "your-chat-id-2"]
+  },
+  "email": {
+    "mailgun_api_key": "your-mailgun-api-key",
+    "mailgun_domain": "your-mailgun-domain.mailgun.org",
+    "from_email": "CCStockWorkEnv <reports@your-domain.mailgun.org>",
+    "to_emails": [
+      "recipient@example.com"
+    ]
+  },
+  "api_keys": {
+    "finmind": null,
+    "alpha_vantage": null
+  },
+  "web_server": {
+    "fixed_ip": "",
+    "external_port": 8800,
+    "internal_port": 8800,
+    "enable_auto_start": true
+  }
+}
