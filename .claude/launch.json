@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web-server",
+      "runtimeExecutable": "C:/Users/yuutachi/AppData/Local/Python/pythoncore-3.14-64/Scripts/uv.exe",
+      "runtimeArgs": ["run", "--directory", "tool_scripts/web_server", "python", "manage.py", "runserver", "0.0.0.0:8800"],
+      "port": 8800,
+      "autoPort": false
+    }
+  ]
+}

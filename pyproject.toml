@@ -3,3 +3,9 @@ name = "ccstockworkenv"
 version = "0.1.0"
 description = "Multi-market stock research & financial analysis environment"
 requires-python = ">=3.10"
+dependencies = [
+    "django>=5.2.12",
+    "requests>=2.32.5",
+    "twstock>=1.4.0",
+    "yfinance>=1.2.0",
+]
